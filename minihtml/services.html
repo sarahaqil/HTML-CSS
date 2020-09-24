@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-  </head>
-  <body>
-    <nav>
+    <link rel="stylesheet" href="../styles/main.css" >
+    <link rel="stylesheet" href="../styles/services.css">
+</head>
+<body>  
+  <nav>
     <div class="logo">PROMTE TOURISM IN PAKISTAN</div>
     <label for="btn" class="icon"> </label>
     <ul>
@@ -38,7 +36,7 @@
         <li>
           <a
             href="https://pakistantourntravel.com/car-rentals/cars/toyota-corolla-gli-2016/"
-            >Toyota Corolla</a
+            >Toyota Corolla Gli</a
           >
         </li>
         <li>
@@ -68,53 +66,61 @@
       </li>
       </li>
       <li><a href="/minihtml/contact.html">CONTACT US </a>
-      <ul>
-               
-      </ul>
       </li>
     </ul>
   </nav>
-  <div class="contact-section">
-    <h1>Contact Us</h1>
-    <div class="border"></div>
-    <form class="contact-form" action="index.html" method="post">
-      <input type="text" class="contact-form-text" placeholder="Your name" />
-      <input
-        type="email"
-        class="contact-form-text"
-        placeholder="Your email"
-      />
-      <input type="text" class="contact-form-text" placeholder="Your phone" />
-      <textarea
-        class="contact-form-text"
-        placeholder="Your message"
-      ></textarea>
-      <input type="submit" class="contact-form-btn" value="Send" />
-    </form>
-    <div class="contact-info">
-      <div class="card">
-        <i class="card-icon far fa-envelope"></i>
-        <p>email@domain.com</p>
-      </div>
-
-      <div class="card">
-        <i class="card-icon fas fa-phone"></i>
-        <p>+92 00000000</p>
-      </div>
-
-      <div class="card">
-        <i class="card-icon fas fa-map-marker-alt"></i>
-        <p>Karachi,pakistan</p>
-    </div>
-  </div>
-  <div class="button">
-  <input
-  type="button"
-  onclick="parent.location='../index.html'"
-  value="click button"
-/>
-</div>
- 
+<div class="container">
+    <div class="container-time">
+    <h2 class="heading">Time Open</h2>
+    <h3 class="heading-days">Monday-Friday</h3>
+    <p>7am - 11am (breakfast)</p>
+    <p>11am - 10pm (lunch/dinner)</p>
     
-  </body>
+    <h3 class="heading-days">Saturday and sunday</h3>
+    <p>9am - 1am (breakfast)</p>
+    <p>1am - 10pm (lunch/dinner)</p>
+    
+    <hr>
+    
+    <h4 class="heading-phone">Call Us: (123) 45-45-456</h4>
+    </div>
+    
+    <div class="container-form">
+    <form action="#">
+    <h2 class="heading heading-yellow">Reservation Online</h2>
+    
+    <div class="form-field">
+    <p>Your Name</p>
+    <input type="text" placeholder="Your Name">
+    </div>
+    <div class="form-field">
+    <p>Your email</p>
+    <input type="email" placeholder="Your email">
+    </div>
+    <div class="form-field">
+    <p>Date</p>
+    <input type="date">
+    </div>
+    <div class="form-field">
+    <p>Time</p>
+    <input type="time">
+    </div>
+    <div class="form-field">
+    <p>How many people?</p>
+    <select name="select" id="#">
+    <option value="1">1 person</option>
+    <option value="2">2 persons</option>
+    <option value="3">3 persosn</option>
+    <option value="4">4 persons</option>
+    <option value="5">5 persons</option>
+    <option value="5+">5+ persons</option>
+    </select>
+    </div>
+    <button class="btn">Submit</button>
+    </form>
+    </div>
+    </div>
+    
+    
+</body>
 </html>
