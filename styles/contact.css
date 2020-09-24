@@ -82,7 +82,7 @@
       
       .card-icon{
         font-size: 28px;
-        background: #ff6348;
+        background: green;
         width: 60px;
         height: 60px;
         text-align: center;
@@ -93,7 +93,7 @@
       
       .card:hover .card-icon{
         background: none;
-        color: #ff6348;
+        color: green;
         transform: scale(1.6);
       }
       
@@ -127,7 +127,6 @@
       }
       input{
         
-        border: 50%;
         outline: 0;
         display: inline-block;
         padding: 10px 25px;
